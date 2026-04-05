@@ -110,4 +110,3 @@ This script was built for use with:
 If you're using QBCore, ESX, or a custom framework, the script can be modified to work with it — just change the job check in `server.lua`.
 
 Enjoy!
-https://discord.gg/rRyhg5mErJ
