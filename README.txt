@@ -31,8 +31,8 @@ shared_script '@ox_lib/init.lua'
 
 
 
-5. Make sure your `tk_policejob` sets the player's job in `Player(source).state.job`.
-(This is true by default if you're using that script.)
+5. Make sure your `policejob` sets the player's job in `Player(source).state.job`.
+(This is true by default if you're using TK.)
 
 --------------------------
 CONFIGURATION
@@ -70,8 +70,7 @@ Config.allowedVehicles = {
 - Located in `server.lua`
 
 By default, the script allows:
-police
-sheriff
+police only
 
 You can add more jobs by editing this table:
 Config.allowedJobs = {
